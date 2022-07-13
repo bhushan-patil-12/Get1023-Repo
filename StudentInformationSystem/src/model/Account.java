@@ -1,9 +1,12 @@
 package model;
 
+import java.time.LocalDate;
+
 public class Account {
 	int accountNo;
 	double balance;
-
+	LocalDate transactionDate;
+	
 	public int getAccountNo() {
 		return accountNo;
 	}
